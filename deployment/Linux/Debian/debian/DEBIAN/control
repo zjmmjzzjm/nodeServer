@@ -1,0 +1,14 @@
+Package: ideservice
+Version: 2.0
+Source: makeblock-ideservice
+Section: free
+Priority: optional 
+Maintainer: zjm <zjmmjzzjm@126.com>
+Build-Depends: 
+Standards-Version: 3.9.2
+Architecture: amd64
+Homepage: http://www.makeblock.com
+Description: driver  for makeblock web ide.
+
+
+

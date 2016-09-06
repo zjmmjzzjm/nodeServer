@@ -1,0 +1,32 @@
+{
+  "name": "install_package",
+  "version": "2.0.0",
+  "description": "",
+  "main": "ide_service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zjm",
+  "license": "ISC",
+  "dependencies": {
+    "bluetooth-serial-port": "^1.2.6",
+    "intercept-stdout": "^0.1.2",
+    "lodash": "^4.13.1",
+    "serialport": "^3.1.2",
+    "socket.io": "^1.4.6",
+    "utf-8-validate": "^1.2.1"
+  },
+  "nexe": {
+    "input": "./ide_service.js",
+    "output": "test.nex",
+    "temp": ".",
+    "runtime": {
+      "framework": "node",
+      "version": "5.10.1",
+      "ignoreFlags": true,
+      "js-flags": "--use_strict",
+      "node-args": ""
+    }
+  }
+}
